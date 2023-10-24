@@ -1,4 +1,7 @@
 # RFM Analysis for Customer Segmentation
+You can interact with the dashboard in tableau public [here](https://public.tableau.com/views/customer_count_by_segments_dashboard/Dashboard1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)
+![Dashboard](https://github.com/PhilipSada/rfm-analysis-for-customer-segmentation/assets/55988995/a3eea32d-fe3a-4aa2-ba7c-7667782b6765)
+
 ## Project Overview
 This project provides an RFM Analysis on a sales data sample which can be found on Kaggle. The RFM Analyis was done using SQL and the result was visualized with Tableau.
 
@@ -6,9 +9,6 @@ RFM Analysis is a data-driven marketing technique that stands for Recency, Frequ
 - Recency (R): Measures how recently a customer made a purchase. Recent customers are often more engaged and likely to respond to promotions.
 - Frequency (F): Indicates how often a customer makes a purchase. Frequent buyers indicate loyal customers who can be targeted for retention programs.
 - Monetary Value (M): Represents the total amount spent by a customer. High spenders are valuable for revenue generation.
-
-![here](https://public.tableau.com/views/customer_count_by_segments_dashboard/Dashboard1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)
-![Dashboard](https://github.com/PhilipSada/rfm-analysis-for-customer-segmentation/assets/55988995/a3eea32d-fe3a-4aa2-ba7c-7667782b6765)
 
 
 **Why RFM Analysis:**
@@ -122,6 +122,24 @@ SELECT CUSTOMERNAME, rfm_recency,rfm_frequency,rfm_monetary,rfm_cell_string,
         else 'customer' -- average customer
     end rfm_segment
 
+
 FROM #rfm
 
 ```
+You can interact with the dashboard in tableau public [here](https://public.tableau.com/views/customer_count_by_segments_dashboard/Dashboard1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)
+![Dashboard](https://github.com/PhilipSada/rfm-analysis-for-customer-segmentation/assets/55988995/a3eea32d-fe3a-4aa2-ba7c-7667782b6765)
+
+**One-Time Customers:**
+Among the customers, 16 fall into the category of one-time buyers. To convert them into loyal patrons, personalized approaches are crucial. Offering exclusive discounts and engaging them through targeted marketing campaigns can remind them of their positive experience and encourage repeat business.
+
+**Active Loyal Customers and Slipping Best Customers:**
+Identifying 13 active loyal customers and 10 slipping best customers presents an opportunity for strengthening customer loyalty. Implementing a tiered loyalty rewards program for active customers ensures their continued patronage. Simultaneously, win-back campaigns can be initiated for slipping best customers, enticing them with special discounts and emphasizing the unique features of our offerings.
+
+**Best Customers and Churned Best Customers:**
+Nine best customers are the backbone of the business revenue stream. Focusing on maintaining their satisfaction is vital. Personalized services, early access to new products, and special loyalty events can further solidify their loyalty. For the five churned best customers, targeted re-engagement strategies can be employed, demonstrating the company's commitment to their satisfaction and urging them to return.
+
+**New Customers and Potential Customers:**
+The seven new customers signifies the company's expanding market reach. To cultivate their loyalty, personalized onboarding experiences and welcome offers can be provided. Additionally, the two potential customers represent untapped opportunities. Initiating direct outreach, offering tailored solutions, and highlighting our unique value proposition can convert potential into loyal patrons.
+
+**Lost Customers**
+Among the customer segments, five individuals fall into the category of lost customers. These are individuals who, for various reasons, have discontinued their engagement with the business. Understanding their departure is essential in devising effective strategies to win them back.
