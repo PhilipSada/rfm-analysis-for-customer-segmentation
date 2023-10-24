@@ -7,6 +7,10 @@ RFM Analysis is a data-driven marketing technique that stands for Recency, Frequ
 - Frequency (F): Indicates how often a customer makes a purchase. Frequent buyers indicate loyal customers who can be targeted for retention programs.
 - Monetary Value (M): Represents the total amount spent by a customer. High spenders are valuable for revenue generation.
 
+![here](https://public.tableau.com/views/customer_count_by_segments_dashboard/Dashboard1?:language=en-GB&publish=yes&:display_count=n&:origin=viz_share_link)
+![Dashboard](https://github.com/PhilipSada/rfm-analysis-for-customer-segmentation/assets/55988995/a3eea32d-fe3a-4aa2-ba7c-7667782b6765)
+
+
 **Why RFM Analysis:**
 RFM Analysis is used for customer segmentation because it provides a data-driven approach to understanding and categorizing customers based on their transaction behaviors: Recency, Frequency, and Monetary Value.
 - Precision: RFM allows businesses to precisely categorize customers based on recent purchases, how often they buy, and how much they spend. This precision helps in creating highly targeted and effective marketing strategies.
